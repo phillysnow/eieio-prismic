@@ -1,33 +1,28 @@
-import Image from 'next/image'
-
-import { Container } from '@/components/Container'
-import backgroundImage from '@/images/background-call-to-action.jpg'
-
 export function CallToAction() {
   return (
-    <section
-      id="get-started-today"
-      className="relative overflow-hidden bg-blue-600 py-32"
+    <div
+      className="py-24 gap-16 inline-flex flex-col items-center text-center w-screen bg-[rgba(245,243,239,1)] text-[rgba(28,79,73,1)]"
     >
-      <Image
-        className="absolute top-1/2 left-1/2 max-w-none -translate-x-1/2 -translate-y-1/2"
-        src={backgroundImage}
-        alt=""
-        width={2347}
-        height={1244}
-        unoptimized
-      />
-      <Container className="relative">
-        <div className="mx-auto max-w-lg text-center">
-          <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
-            Get started today
-          </h2>
-          <p className="mt-4 text-lg tracking-tight text-white">
-            It’s time to take control of your books. Buy our software so you can
-            feel like you’re doing something productive.
-          </p>
+      <div className="px-8 gap-8 flex flex-col items-center w-[1280px]">
+        <div
+          className="w-full gap-12 flex flex-col items-center self-stretch"
+        >
+          <div
+            className="gap-6 flex flex-col justify-center items-center w-[1024px]"
+          >
+            <h2
+              className={`w-full text-4xl font-semibold m-0 font-['Space_Grotesk'] tracking-[-0.32px] leading-[56px]`}
+            >
+              We will also offer a range of products, including soil sensors, drones, and automated machinery, to help farmers optimize their operations and minimize waste.
+            </h2>
+            <p
+              className={`text-xl font-normal m-0 w-[768px] font-['Inter'] leading-[30px]`}
+            >
+              As Mr. McDonald, I am excited to introduce eie.io, a farming solutions start-up that aims to revolutionize the way farmers work.
+            </p>
+          </div>
         </div>
-      </Container>
-    </section>
+      </div>
+    </div>
   )
 }
