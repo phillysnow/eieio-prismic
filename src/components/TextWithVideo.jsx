@@ -1,7 +1,7 @@
 export function TextWithVideo() {
   return (
     <div className="grid justify-center items-center text-center w-screen h-screen bg-[rgba(245,243,239,1)] text-[rgba(28,79,73,1)]">
-      <div className="container gap-8 flex flex-col items-center">
+      <div className="container px-8 gap-8 flex flex-col items-center">
         <h1 className="text-5xl font-semibold font-['Space_Grotesk']">
           Farming Made Easy with eie.io
         </h1>

@@ -5,7 +5,7 @@ import ronald from '../images/ronald.png'
 export function Hero() {
   return (
     <div className="pt-12 pb-24 flex flex-col items-center w-screen bg-[rgba(224,227,222,1)]">
-      <div className="container grid grid-cols-1 md:grid-cols-2 text-left min-h-[512px] gap-24 items-center">
+      <div className="container px-8 grid grid-cols-1 md:grid-cols-2 text-left min-h-[512px] gap-24 items-center">
         <div className="grid gap-12 items-start">
           <p className={`font-bold font-['Space_Grotesk'] text-6xl text-[rgba(28,79,73,1)]`}>
             Farming Made Easy with eie.io
