@@ -1,11 +1,10 @@
 import Image from 'next/image'
-import ronda from '../images/ronda.png'
+import ronda from '@/images/ronda.png'
 
-export function SplitButtonRight() {
+export function SplitButtonLeft() {
   return (
     <div className="flex justify-center items-center w-screen bg-[rgba(245,243,239,1)]">
-      <div className="container px-8 grid grid-cols-1 md:grid-cols-2 gap-24 min-h-[514px] items-center py-24">
-        <Image src={ronda} alt="Mrs. McDonald" className="rounded-3xl" />
+      <div className="container grid grid-cols-1 md:grid-cols-2 gap-24 min-h-[514px] items-center py-24">
         <div className="grid gap-4 items-start">
           <p className="text-3xl font-bold font-['Space_Grotesk'] text-[rgba(28,79,73,1)]">
             Share team inboxes
@@ -28,6 +27,7 @@ export function SplitButtonRight() {
             </div>
           </div>
         </div>
+        <Image src={ronda} alt="Mrs. McDonald" className="rounded-3xl" />
       </div>
     </div>
   )
