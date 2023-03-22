@@ -10,3 +10,18 @@
 #__next {
   min-height: 100%;
 }
+
+@layer base {
+  h1 {
+    @apply font-bold font-['Space_Grotesk'] text-6xl text-[rgba(28,79,73,1)];
+  }
+  h2 {
+    @apply w-full text-4xl font-semibold font-['Space_Grotesk'];
+  }
+  h3 {
+    @apply text-3xl font-bold font-['Space_Grotesk'] text-[rgba(28,79,73,1)];
+  }
+  p {
+    @apply text-xl font-normal font-['Inter'];
+  }
+}

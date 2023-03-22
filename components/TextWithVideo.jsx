@@ -1,11 +1,11 @@
-export function TextWithVideo() {
+const TextWithVideo = () => {
   return (
     <div className="grid justify-center items-center text-center w-screen h-screen bg-[rgba(245,243,239,1)] text-[rgba(28,79,73,1)]">
       <div className="container gap-8 flex flex-col items-center">
-        <h1 className="text-5xl font-semibold font-['Space_Grotesk']">
+        <h2>
           Farming Made Easy with eie.io
-        </h1>
-        <p className="text-xl font-normal m-0 font-['Inter']">
+        </h2>
+        <p>
           As Mr. McDonald, I am excited to introduce eie.io, a farming solutions start-up that aims to revolutionize the way farmers work.
         </p>
         <iframe
@@ -19,3 +19,5 @@ export function TextWithVideo() {
     </div>
   );
 }
+
+export default TextWithVideo;
