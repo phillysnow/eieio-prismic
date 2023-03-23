@@ -19,6 +19,11 @@ module.exports = {
       '8xl': ['6rem', { lineHeight: '1' }],
       '9xl': ['8rem', { lineHeight: '1' }],
     },
+    colors: {
+      'grey': '#F5F3EE',
+      'greenGrey': '#E0E3DD',
+      'darkGreen': '#1C4F49',
+    },
     container: {
       padding: {
         DEFAULT: '1rem',

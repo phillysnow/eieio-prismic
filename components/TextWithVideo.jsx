@@ -1,6 +1,6 @@
 const TextWithVideo = () => {
   return (
-    <div className="grid justify-center items-center text-center w-screen h-screen bg-[rgba(245,243,239,1)] text-[rgba(28,79,73,1)]">
+    <div className="grid justify-center items-center text-center w-screen h-screen bg-grey">
       <div className="container gap-8 flex flex-col items-center">
         <h2>
           Farming Made Easy with eie.io

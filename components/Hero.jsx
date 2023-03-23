@@ -4,7 +4,7 @@ import ronald from '@/images/ronald.png'
 
 const Hero = () => {
   return (
-    <div className="pt-12 pb-24 flex flex-col items-center w-screen bg-[rgba(224,227,222,1)]">
+    <div className="pt-12 pb-24 flex flex-col items-center w-screen bg-greenGrey">
       <div className="container grid grid-cols-1 md:grid-cols-2 text-left min-h-[512px] gap-24 items-center">
         <div className="grid gap-12 items-start">
           <h1>

@@ -5,10 +5,10 @@ const Button = ({ label, white }) => {
       justify-center 
       items-center 
       rounded-lg 
-      w-[170px] 
-      h-[60px] 
-      ${white ? 'text-[rgba(28,79,73,1)]' : 'text-[rgba(224,227,222,1)] bg-[rgba(28,79,73,1)]'} 
-      border-[rgba(28,79,73,1)]
+      px-10 
+      py-4 
+      ${white ? 'text-darkGreen' : 'text-[#fff] bg-darkGreen'} 
+      border-darkGreen
       border-2 shadow-lg `}
     >
       { label }

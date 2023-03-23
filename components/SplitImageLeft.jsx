@@ -3,7 +3,7 @@ import plants from '@/images/plants.png'
 
 const SplitImageLeft = () => {
   return (
-    <div className="flex justify-center items-center w-screen bg-[rgba(224,227,222,1)] text-[rgba(28,79,73,1)]">
+    <div className="flex justify-center items-center w-screen bg-greenGrey">
       <div className="container grid grid-cols-1 md:grid-cols-2 gap-24 items-center min-h-[512px] py-24">
         <Image src={plants} alt="The future" className="rounded-3xl"/>
         <div className="grid gap-4 items-start">

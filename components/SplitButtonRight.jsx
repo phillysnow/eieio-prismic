@@ -4,7 +4,7 @@ import ronda from '@/images/ronda.png'
 
 const SplitButtonRight = () => {
   return (
-    <div className="flex justify-center items-center w-screen bg-[rgba(245,243,239,1)]">
+    <div className="flex justify-center items-center w-screen bg-grey">
       <div className="container grid grid-cols-1 md:grid-cols-2 gap-24 min-h-[514px] items-center py-24">
         <Image src={ronda} alt="Mrs. McDonald" className="rounded-3xl" />
         <div className="grid gap-4 items-start">
