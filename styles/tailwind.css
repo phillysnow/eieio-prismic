@@ -16,15 +16,15 @@
     @apply text-darkGreen
   }
   h1 {
-    @apply font-bold font-['Space_Grotesk'] text-6xl;
+    @apply font-bold font-titles text-6xl;
   }
   h2 {
-    @apply w-full text-4xl font-semibold font-['Space_Grotesk'];
+    @apply w-full text-4xl font-semibold font-titles;
   }
   h3 {
-    @apply text-3xl font-bold font-['Space_Grotesk'];
+    @apply text-3xl font-bold font-titles;
   }
   p {
-    @apply text-xl font-normal font-['Inter'];
+    @apply text-xl font-normal font-sans;
   }
 }

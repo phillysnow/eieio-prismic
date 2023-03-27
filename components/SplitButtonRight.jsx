@@ -14,7 +14,7 @@ const SplitButtonRight = () => {
           <p>
             As Mr. McDonald, I am excited to introduce eie.io, a farming solutions start-up that aims to revolutionize the way farmers work. Our company is dedicated to creating innovative solutions that help farmers increase their crop yields, reduce costs, and improve efficiency.
           </p>
-          <div className="flex flex-col gap-3 justify-start font-semibold font-['Inter']">
+          <div className="flex flex-col gap-3 justify-start font-semibold">
             <div className="flex gap-3">
               <Button label="Call to Action" white={true}/>
               <Button label="Call to Action" white={false}/>

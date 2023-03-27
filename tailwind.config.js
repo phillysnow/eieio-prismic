@@ -23,6 +23,7 @@ module.exports = {
       'grey': '#F5F3EE',
       'greenGrey': '#E0E3DD',
       'darkGreen': '#1C4F49',
+      'white': '#ffffff'
     },
     container: {
       padding: {
@@ -40,6 +41,7 @@ module.exports = {
       fontFamily: {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
         display: ['Lexend', ...defaultTheme.fontFamily.sans],
+        titles: ['"Space Grotesk"']
       },
       maxWidth: {
         '2xl': '40rem',

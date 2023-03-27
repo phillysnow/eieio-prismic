@@ -7,7 +7,7 @@ const Button = ({ label, white }) => {
       rounded-lg 
       px-10 
       py-4 
-      ${white ? 'text-darkGreen' : 'text-[#fff] bg-darkGreen'} 
+      ${white ? 'text-darkGreen' : 'text-white bg-darkGreen'} 
       border-darkGreen
       border-2 shadow-lg `}
     >
