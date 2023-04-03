@@ -14,8 +14,8 @@ const Hero = () => {
             As Mr. McDonald, I am excited to introduce eie.io, a farming solutions start-up that aims to revolutionize the way farmers work.
           </p>
           <div className="flex gap-3 items-start font-semibold">
-            <Button label="Call to Action" white={true}/>
-            <Button label="Call to Action" white={false}/>
+            <Button link="https://www.google.com/" label="Call to Action" white={true}/>
+            <Button link="https://www.google.com/" label="Call to Action" white={false}/>
           </div>
         </div>
         <Image src={ronald} alt="Mr. McDonald" className="rounded-3xl overflow-hidden" />

@@ -10,7 +10,7 @@ const CallToActionButton = () => {
         <p>
           As Mr. McDonald, I am excited to introduce eie.io, a farming solutions start-up that aims to revolutionize the way farmers work.
         </p>
-        <Button label="Call to Action" white={false}/>
+        <Button link="https://www.google.com/" label="Call to Action" white={false}/>
       </div>
     </div>
   );

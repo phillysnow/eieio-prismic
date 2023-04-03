@@ -16,8 +16,8 @@ const SplitButtonRight = () => {
           </p>
           <div className="flex flex-col gap-3 justify-start font-semibold">
             <div className="flex gap-3">
-              <Button label="Call to Action" white={true}/>
-              <Button label="Call to Action" white={false}/>
+              <Button link="https://www.google.com/" label="Call to Action" white={true}/>
+              <Button link="https://www.google.com/" label="Call to Action" white={false}/>
             </div>
           </div>
         </div>

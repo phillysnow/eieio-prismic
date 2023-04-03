@@ -1,4 +1,6 @@
-const Button = ({ label, white }) => {
+import Link from 'next/link'
+
+const Button = ({ link, label, white }) => {
   return (
     <button
       className={`flex 
@@ -11,7 +13,7 @@ const Button = ({ label, white }) => {
       border-darkGreen
       border-2 shadow-lg `}
     >
-      { label }
+      <Link href={ link }>{ label }</Link>
     </button>
   )
 }
