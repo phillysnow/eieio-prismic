@@ -1,11 +1,9 @@
 import Head from 'next/head'
 
-import CallToAction from '@/components/CallToAction'
+import TextCenter from '@/components/TextCenter'
 import CallToActionButton from '@/components/CallToActionButton'
 import SplitImageLeft from '@/components/SplitImageLeft'
-import SplitImageRight from '@/components/SplitImageRight'
 import SplitButtonLeft from '@/components/SplitButtonLeft'
-import SplitButtonRight from '@/components/SplitButtonRight'
 import TextWithVideo from '@/components/TextWithVideo'
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
@@ -26,9 +24,7 @@ const Home = () => {
         <CallToActionButton />
         <SplitImageLeft />
         <SplitButtonLeft />
-        <SplitImageRight />
-        <SplitButtonRight />
-        <CallToAction />
+        <TextCenter />
         <TextWithVideo />
       </main> 
     </>

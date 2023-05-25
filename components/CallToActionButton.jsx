@@ -8,9 +8,9 @@ const CallToActionButton = () => {
           We will also offer a range of products, including soil sensors, drones, and automated machinery, to help farmers optimize their operations and minimize waste.
         </h2>
         <p>
-          As Mr. McDonald, I am excited to introduce eie.io, a farming solutions start-up that aims to revolutionize the way farmers work.
+          Embark on the journey towards smarter, more productive, and sustainable farming with eie.io's Tractors of the Future.
         </p>
-        <Button link="https://www.google.com/" label="Call to Action" white={false}/>
+        <Button link="https://www.google.com/" label="Learn More" white={false}/>
       </div>
     </div>
   );

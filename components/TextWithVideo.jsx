@@ -3,10 +3,10 @@ const TextWithVideo = () => {
     <div className="grid justify-center items-center text-center w-screen h-screen bg-grey">
       <div className="container gap-8 flex flex-col items-center">
         <h2>
-          Farming Made Easy with eie.io
+          What are Tractors of the Future?
         </h2>
         <p>
-          As Mr. McDonald, I am excited to introduce eie.io, a farming solutions start-up that aims to revolutionize the way farmers work.
+          Each tractor is equipped with advanced AI that learns from each farming task, improving its performance over time. 
         </p>
         <iframe
           className="w-screen	max-w-7xl h-[50vh]"

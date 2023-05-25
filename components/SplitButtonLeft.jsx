@@ -11,12 +11,11 @@ const SplitButtonLeft = () => {
             Share team inboxes
           </h3>
           <p>
-            As Mr. McDonald, I am excited to introduce eie.io, a farming solutions start-up that aims to revolutionize the way farmers work. Our company is dedicated to creating innovative solutions that help farmers increase their crop yields, reduce costs, and improve efficiency.
+            In addition, our tractors feature IoT connectivity, linking them with our Smart Seeds and cloud-based platform. This means they can respond to real-time data about crop growth, soil conditions, and weather forecasts, optimizing their operations to boost productivity and sustainability.
           </p>
           <div className="flex flex-col gap-3 justify-start font-semibold">
             <div className="flex gap-3">
-              <Button link="https://www.google.com/" label="Call to Action" white={true}/>
-              <Button link="https://www.google.com/" label="Call to Action" white={false}/>
+              <Button link="https://www.google.com/" label="Subscribe Now"/>
             </div>
           </div>
         </div>

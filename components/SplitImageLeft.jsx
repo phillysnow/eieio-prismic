@@ -8,10 +8,10 @@ const SplitImageLeft = () => {
         <Image src={plants} alt="The future" className="rounded-3xl"/>
         <div className="grid gap-4 items-start">
           <h3>
-            Share team inboxes
+            A Revolution in Agriculture!
           </h3>
           <p>
-            As Mr. McDonald, I am excited to introduce eie.io, a farming solutions start-up that aims to revolutionize the way farmers work. Our company is dedicated to creating innovative solutions that help farmers increase their crop yields, reduce costs, and improve efficiency.
+            Discover eie.io's Smart Seeds, a groundbreaking innovation in agriculture. Our AI-enhanced, data-driven seeds optimize resource usage, increase yield, and resist pests and diseases. Join the future of sustainable farming with Smart Seeds. Learn more about our revolutionary technology today.
           </p>
         </div>
       </div>
