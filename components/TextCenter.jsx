@@ -1,7 +1,7 @@
 const TextCenter = () => {
   return (
     <div className="py-24 gap-16 inline-flex flex-col items-center text-center w-screen bg-greenGrey">
-      <div className="container gap-6 flex flex-col">
+      <div className="container gap-6 flex flex-col items-center">
         <h2>
           Pioneering the Future of Farming!
         </h2>

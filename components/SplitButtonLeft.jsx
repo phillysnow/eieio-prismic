@@ -15,7 +15,7 @@ const SplitButtonLeft = () => {
           </p>
           <div className="flex flex-col gap-3 justify-start font-semibold">
             <div className="flex gap-3">
-              <Button link="https://www.google.com/" label="Subscribe Now"/>
+              <Button link="https://www.google.com/" label="Learn More"/>
             </div>
           </div>
         </div>
