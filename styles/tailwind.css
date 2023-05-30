@@ -27,4 +27,7 @@
   p {
     @apply text-xl font-normal font-sans;
   }
+  iframe {
+   @apply w-screen max-w-7xl h-[65vh];
+  }
 }
