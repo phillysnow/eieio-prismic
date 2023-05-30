@@ -9,7 +9,7 @@ const TextWithVideo = () => {
           Each tractor is equipped with advanced AI that learns from each farming task, improving its performance over time. 
         </p>
         <iframe
-          className="w-screen	max-w-7xl h-[50vh]"
+          className="w-screen	max-w-7xl h-[65vh]"
           src="https://www.youtube.com/embed/ig5Ly8MBFOQ"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
