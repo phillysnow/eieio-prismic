@@ -14,7 +14,7 @@ const Hero = () => {
             As Mr. McDonald, I am excited to introduce eie.io, a farming solutions start-up that aims to revolutionize the way farmers work.
           </p>
           <div className="items-start font-semibold">
-            <Button link="https://www.google.com/" label="Learn More"/>
+            <Button link="https://en.wikipedia.org/wiki/Agriculture" label="Learn More"/>
           </div>
         </div>
         <Image src={ronald} alt="Mr. McDonald" className="rounded-3xl overflow-hidden" />

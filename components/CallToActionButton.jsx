@@ -10,7 +10,7 @@ const CallToActionButton = () => {
         <p>
           Embark on the journey towards smarter, more productive, and sustainable farming with eie.io's Tractors of the Future.
         </p>
-        <Button link="https://www.google.com/" label="Learn More" white={false}/>
+        <Button link="https://en.wikipedia.org/wiki/Monoculture" label="Learn More" white={false}/>
       </div>
     </div>
   );
