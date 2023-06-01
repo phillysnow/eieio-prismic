@@ -18,14 +18,12 @@ const Home = () => {
           content="Farming solutions start-up that aims to revolutionize the way farmers work."
         />
       </Head>
-      <Header />
       <main>
         <Hero />
         <CallToActionButton />
         <SplitImageLeft />
         <SplitButtonLeft />
         <TextCenter />
-        <TextWithVideo />
       </main> 
     </>
   )
