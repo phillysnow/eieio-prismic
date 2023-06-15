@@ -24,9 +24,9 @@ const Home = () => {
         <SplitImageLeft />
         <SplitButtonLeft />
         <TextCenter />
-      </main> 
+      </main>
     </>
   )
 }
 
-export default Home;
+export default Home

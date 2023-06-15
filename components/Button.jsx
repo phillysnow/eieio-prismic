@@ -15,9 +15,9 @@ const Button = ({ link, label }) => {
       border-darkGreen
       border-2 shadow-lg `}
     >
-      <Link href={ link }>{ label }</Link>
+      <Link href={link}>{label}</Link>
     </button>
   )
 }
 
-export default Button;
+export default Button
