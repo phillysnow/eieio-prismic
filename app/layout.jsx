@@ -12,10 +12,14 @@ const space_grotesk = Space_Grotesk({
   variable: '--font-space-grotesk',
 })
 
-export default function App({ Component, pageProps }) {
+export default function RootLayout({ children }) {
   return (
-    <main className={`${inter.variable} ${space_grotesk.variable}`}>
-      <Component {...pageProps} />
-    </main>
+    <html lang="en">
+      <body>
+        <main className={`${inter.variable} ${space_grotesk.variable}`}>
+          {children}
+        </main>
+      </body>
+    </html>
   )
 }
