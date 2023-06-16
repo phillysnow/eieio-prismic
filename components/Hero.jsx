@@ -23,6 +23,10 @@ const Hero = () => {
           src={ronald}
           alt="Mr. McDonald"
           className="rounded-3xl overflow-hidden"
+          style={{
+            maxWidth: '100%',
+            height: 'auto',
+          }}
         />
       </div>
     </div>

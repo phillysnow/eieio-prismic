@@ -41,9 +41,9 @@ module.exports = {
         '4xl': '2rem',
       },
       fontFamily: {
-        sans: ['Inter', ...defaultTheme.fontFamily.sans],
+        sans: ['var(--font-inter)', ...defaultTheme.fontFamily.sans],
         display: ['Lexend', ...defaultTheme.fontFamily.sans],
-        titles: ['"Space Grotesk"'],
+        titles: ['var(--font-space-grotesk)'],
       },
       maxWidth: {
         '2xl': '40rem',

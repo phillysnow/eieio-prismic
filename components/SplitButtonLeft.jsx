@@ -17,7 +17,15 @@ const SplitButtonLeft = () => {
           </p>
           <Button link="https://www.smartseeds.fr/" label="Learn More" />
         </div>
-        <Image src={ronda} alt="Mrs. McDonald" className="rounded-3xl" />
+        <Image
+          src={ronda}
+          alt="Mrs. McDonald"
+          className="rounded-3xl"
+          style={{
+            maxWidth: '100%',
+            height: 'auto',
+          }}
+        />
       </div>
     </div>
   )

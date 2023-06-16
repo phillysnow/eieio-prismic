@@ -1,8 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Space Grotesk:wght@600");
-@import url("https://api.fontshare.com/css?f[]=space grotesk@600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400");
-@import url("https://api.fontshare.com/css?f[]=inter@400&display=swap");
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -13,7 +8,7 @@
 
 @layer base {
   html {
-    @apply text-darkGreen
+    @apply text-darkGreen;
   }
   h1 {
     @apply font-bold font-titles text-6xl;
@@ -28,6 +23,6 @@
     @apply text-xl font-normal font-sans;
   }
   iframe {
-   @apply w-screen max-w-7xl h-[65vh];
+    @apply w-screen max-w-7xl h-[65vh];
   }
 }
