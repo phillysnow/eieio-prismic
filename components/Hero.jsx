@@ -22,11 +22,7 @@ const Hero = () => {
         <Image
           src={ronald}
           alt="Mr. McDonald"
-          className="rounded-3xl overflow-hidden"
-          style={{
-            maxWidth: '100%',
-            height: 'auto',
-          }}
+          className="w-full h-auto rounded-3xl overflow-hidden"
         />
       </div>
     </div>

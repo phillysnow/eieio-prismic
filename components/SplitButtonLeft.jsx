@@ -20,11 +20,7 @@ const SplitButtonLeft = () => {
         <Image
           src={ronda}
           alt="Mrs. McDonald"
-          className="rounded-3xl"
-          style={{
-            maxWidth: '100%',
-            height: 'auto',
-          }}
+          className="w-full h-auto rounded-3xl"
         />
       </div>
     </div>

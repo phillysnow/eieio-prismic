@@ -8,11 +8,7 @@ const SplitImageLeft = () => {
         <Image
           src={plants}
           alt="The future"
-          className="rounded-3xl"
-          style={{
-            maxWidth: '100%',
-            height: 'auto',
-          }}
+          className="w-full h-auto rounded-3xl"
         />
         <div className="flex flex-col gap-4 items-start">
           <h3>A Revolution in Agriculture!</h3>
