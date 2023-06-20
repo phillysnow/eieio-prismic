@@ -1,0 +1,10 @@
+{
+  "extends": ["next/core-web-vitals"],
+  "rules": {
+    "semi": ["error", "never"],
+    "no-unused-vars": [
+      "error",
+      { "destructuredArrayIgnorePattern": "^_", "argsIgnorePattern": "^_" }
+    ]
+  }
+}
