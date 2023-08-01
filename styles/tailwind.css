@@ -22,6 +22,12 @@
   p {
     @apply text-xl font-normal font-sans;
   }
+  span {
+    @apply font-sans;
+  }
+  li {
+    @apply font-sans;
+  }
   iframe {
     @apply w-screen max-w-7xl h-[65vh];
   }

@@ -1,0 +1,40 @@
+{
+  "id": "embed_section",
+  "type": "SharedSlice",
+  "name": "EmbedSection",
+  "description": "EmbedSection",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "background_color": {
+          "type": "Select",
+          "config": {
+            "label": "Background Color",
+            "placeholder": "",
+            "options": ["Grey", "Green"]
+          }
+        },
+        "text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "embed": {
+          "type": "Embed",
+          "config": { "label": "Embed", "placeholder": "" }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
